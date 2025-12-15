@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:lightgrey;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+   
+}
+.code-container{
+    display: flex;
+}
+.htmlbar,
+.cssbar,
+.jsbar {
+  width: 33.33%;
+}
+
+
+.btn{
+    background-color: lightgrey;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.btn button{
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 1px;
+}
+.btn button:hover{
+  background-color: #4d4d4d;
+  border: none;
+  color: #fff;
+}
